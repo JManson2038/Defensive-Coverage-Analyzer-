@@ -1,0 +1,22 @@
+# Pipeline outputs (annotated video, csv, summaries)
+out/
+
+# Model weights (ultralytics downloads these on first run)
+*.pt
+
+# Footage — keep clips out of the repo
+*.mp4
+*.mov
+*.mkv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
